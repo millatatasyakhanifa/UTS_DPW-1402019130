@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EDU-COVID Website</title>
+    <link rel="stylesheet" type="text/css" href="CSS/stylekuis.css" >
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+	<header>
+            <div class="container">
+                <div class="logo">
+                    <h1><a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""/>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pencegahan.html">Pencegahan Covid-19</a></li>
+                    <li><a href="datastat.html">Data dan Statistik</a></li>
+                    <li class="active"><a href="kuis.html">Kuis</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+            </div>
+    </header>
+
+    <div class="home-box custome-box">
+        <h3>Instruction:</h3>
+        <p>Total questions: <span class="total-question"></span>5</p>
+        <p>Types of questions: Multiple choice</p>
+        <button class="btn" type="button">Start Quiz</button>
+    </div>
+
+    <div class="quiz-box custome-box">
+        <div class="question-number">
+            Question 1 of 5
+        </div>
+        <div class="question-text">
+            Apa itu coronavirus?
+        </div>
+         <div class="option-container">
+            <div class="option">Virus yang menyebabkan infeksi saluran nafas pada manusia mulai dari batuk pilek hingga MERS dan SARS pada hewan atau manusia.</div>
+            <div class="option">Virus yang menular melalui gigitan nyamuk.</div>
+            <div class="option">Virus yang menular melalui gigitan nyamuk.</div>
+            <div class="option">Virus yang menyebar melalui darah dan sperma.</div>
+        </div>
+        <div class="next-btn">
+            <button type="button" class="btn">Next</button>
+        </div>
+        <div>
+            <div class="answer"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="question-number">
+            Question 2 of 5
+        </div>
+        <div class="question-text">
+            Apa gejala umum COVID-19?
+        </div>
+         <div class="option-container">
+            <div class="option">Takut pada air, dan kelumpuhan</div>
+            <div class="option">Gatal di sekujur tubuh, ruam, konjungtivitis, serta sakit kepala</div>
+            <div class="option">Gatal di sekujur tubuh, ruam, konjungtivitis, serta sakit kepala</div>
+            <div class="option">Mudah Mengantuk</div>
+        </div>
+        <div class="next-btn">
+            <button type="button" class="btn">Next</button>
+        </div>
+        <div>
+            <div class="answer"></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="result-box custome-box hide">
+        <h1>Quiz Result</h1>
+        <table>
+            <tr>
+                <td>Total Question</td>
+                <ta><span class="total-question">5</span> </ta>
+            </tr>
+            <tr>
+                <td>Attempt</td>
+                <ta><span class="total-attempt">4</span></ta>
+            </tr>
+            <tr>
+                <td>Correct</td>
+                <ta><span class="total-correct">3</span></ta>
+            </tr>
+            <tr>
+                <td>Wrong</td>
+                <ta><span class="total-wrong">2</span></ta>
+            </tr>
+            <tr>
+                <td>Persentage</td>
+                <ta><span class="total-persentage">60%</span></ta>
+            </tr>
+            <tr>
+                <td>Your Total Score</td>
+                <ta><span class="total-score">3/5</span></ta>
+            </tr>
+        </table>
+        <button type="button" class="btn">Try Again</button>
+        <button type="button" class="btn">Go To Home</button>
+    </div>
+
+</body>
+</html>

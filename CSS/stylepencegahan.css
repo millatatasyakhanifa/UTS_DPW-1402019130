@@ -1,0 +1,126 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.fitur {
+	padding: 10px 0;
+	background-color: #F1FFFD; 
+	margin-top: 100px;
+}
+
+.container {
+	width: 90%;
+	margin: 0 auto;
+	color: #19716C;
+	text-align: center;
+}
+
+.container:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.logo{
+	float:center;
+}
+.logo img {
+	width: 15%;
+}
+
+header ul {
+	float: right;
+}
+
+header ul li {
+	display: inline-block;
+} 
+
+header ul li a{
+	display: inline-block;
+	padding: 25px 20px;
+}
+
+header ul li a:hover {
+	color: #FAB0B0; 
+}
+
+.active {
+	color: #FAB0B0; 
+}
+
+.banner {
+	height: 350px;
+	width: 1350px;
+	background-image: url('../images/pencegahan.jpg');
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(238, 252, 240, .4);
+}
+
+section {
+	padding: 50px 0;
+}
+
+.masker-header {
+	margin-top: 50px;
+	text-align: center;
+}
+
+.masker-header h3 {
+	font-size: 2.5em;
+	font-family: 'Arvo', serif;
+	font-weight: 400;
+	color: #19716C;
+}
+.masker-header h3 span{
+	color: #010101;
+}
+
+.h3, h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3a3a3a;
+    margin-bottom: 15px;
+}
+
+.img-responnsive {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+img {
+     width: 200px;
+     border: 4px solid #fff;
+     padding: 10px;
+     margin: 20px;
+}
+
+.imgs {
+     width: 400px;
+     height: 250px;
+     border: 4px solid #fff;
+     padding: 10px;
+     margin: 20px;
+}

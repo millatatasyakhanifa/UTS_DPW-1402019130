@@ -1,0 +1,26 @@
+ *** Question List ***
+ Q.1: Apa itu coronavirus?
+      option 0 : Suatu kelompok virus yang dapat menyebabkan infeksi saluran nafas pada manusia mulai dari batuk pilek hingga MERS dan SARS pada hewan atau manusia.
+      option 1 : Virus yang menular melalui gigitan nyamuk.
+      option 2 : Virus yang menyebabkan campak Jerman.
+      option 3 : Virus yang menyebar melalui darah dan sperma.
+ Q.2: Apa gejala umum COVID-19?
+      option 0 : Takut pada air, dan kelumpuhan
+      option 1 : Gatal di sekujur tubuh, ruam, konjungtivitis, serta sakit kepala.
+      option 2 : Demam, batuk kering, dan sesak napas, yang muncul 2–14 hari.
+      option 3 : Mudah mengantuk
+ Q.3: COVID-19 pertama kali diidentifikasi di...
+      option 0 : Jakarta, Indonesia
+      option 1 : Mumbai, India
+      option 2 : Busan, Korea Selatan
+      option 3 : Wuhan, Cina
+ Q.4: Virus yang menyebabkan COVID-19
+      option 0 : Zika
+      option 1 : SARS-CoV-2
+      option 2 : Varicella-zoster
+      option 3 : Hepatitis C
+ Q.5: Bagaimana cara untuk mencegah penyebaran COVID-19?
+      option 0 : Menerapkan 5M 
+      option 1 : Tidak menggunakan masker
+      option 2 : Berkumpul di tempat ramai
+      option 3 : Rajin mencuci tangan tidak menggunakan sabun
